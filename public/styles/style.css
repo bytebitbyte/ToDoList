@@ -1,0 +1,88 @@
+  /* Reset default margin and padding for the body */
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  /* Style for the navigation bar */
+  .navbar {
+    background-color: black;
+    padding: 10px;
+    font-size: x-large;
+  }
+  .navbar, .navbar a, p {
+    color: green;
+  }
+  /* Add some space between navigation items */
+  .navbar a {
+    margin-right: 20px;
+    text-decoration: none;
+    word-spacing: 10px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading {
+    background-color: white;
+    font-size: xx-large;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .additems {
+    background-color: white;
+    height: 60px;
+  }
+  .listitems {
+    background-color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    
+  }
+  .listitems div{
+    display: flex;
+    width: 100%;
+    height: 30px;
+  }
+  .listitems div div{
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    text-align: center;
+  }
+  .listitems div div p{
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding-left: 30px;
+  }
+  input[type="text"] {
+    text-align: center;
+    width: 83%;
+    height: 50px;
+    margin-left: 6px;
+    margin-top: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: 200;
+  }
+  input:focus {
+    border:none;
+    outline: none;
+    border-bottom: 2px solid black;
+  }
+  button {
+    min-height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: green;
+    color: #fff;
+    font-size: 30px;
+    border-width: 0;
+    
+  }
+  .crossed-out {
+    text-decoration: line-through;
+  }
